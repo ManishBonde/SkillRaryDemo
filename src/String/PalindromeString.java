@@ -11,7 +11,7 @@ public class PalindromeString {
 	 
 	 String str1=sc.next();
 	 String org_str1=str1;
-	 String rev=" ";
+	 String rev="";
      int len=str1.length();
      for(int i=len-1;i>=0;i--) {
     	 rev= rev+str1.charAt(i);
