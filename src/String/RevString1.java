@@ -6,7 +6,8 @@ public class RevString1 {
 		
 		String str1= "Innovations";
 		String rev="";
-		int len=str1.length();
+		int len = str1.length();
+		
 		for(int i=len-1;i>=0;i--) {
 		   rev=rev+ str1.charAt(i);
 		}
